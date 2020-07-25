@@ -9,7 +9,9 @@ population_density=test2
 	
 
 # test cases for your function Dont change anything below this comment.
+#testing cases with the title function
 print(population_density.title())
+#testinng cases with the islower function
 print(population_density.islower()
 
 
