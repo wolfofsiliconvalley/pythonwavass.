@@ -7,14 +7,14 @@ rainfall = 5e6
 
 # decrease the rainfall variable by 10% to account for runoff
 
-rainfall = 5000000.0
+rainfall = 5*10**6
 runoff = rainfall * 0.1
 rainfall = rainfall - runoff
 
 
 # add the rainfall variable to the reservoir_volume variable
 
-reservoir_volume = 444500000.0
+reservoir_volume = 4.445*10**8
 reservoir_volume = reservoir_volume + rainfall
 
 
